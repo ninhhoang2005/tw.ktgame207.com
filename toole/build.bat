@@ -1,6 +1,7 @@
 @echo off
 cd ..
 cd source
+title build manager
 :menu
 echo What kind of build do you want?
 echo 1, server, test and execute on localhost
@@ -11,16 +12,20 @@ if "%menu%"=="1" goto server
 if "%menu%"=="2" goto build
 if "%menu%"=="3" goto remove
 
-echo Invalid option. please choose 1, 2 or 3.
+echo Invalid option, please choose 1 or 2.
 goto menu
 
 :build
+rd /s /q public
+del .hugo_build.lock
 cls
 echo building
 hugo
 pause
 exit
 :server
+rd /s /q public
+del .hugo_build.lock
 cls
 echo building server
 hugo server

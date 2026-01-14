@@ -6,8 +6,8 @@ menu:
     weight: 2
 ---
 
-## download game
+## download
 
-Current version: {{< gameversion >}}
+Current version: 14.01
 
 {{< download-box >}}
