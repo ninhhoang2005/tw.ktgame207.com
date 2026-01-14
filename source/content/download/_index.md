@@ -8,6 +8,6 @@ menu:
 
 ## download game
 
-Current version: 14.01
+Current version: {{< gameversion >}}
 
 {{< download-box >}}
