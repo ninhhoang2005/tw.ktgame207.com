@@ -1,0 +1,28 @@
+<!-- Container to display the version -->
+<span id="current-version-display">Loading...</span>
+
+<script>
+  (function() {
+    // URL to your version file
+    // Adding timestamp (?t=...) prevents the browser from caching the old version
+    const versionUrl = "http://lc.ktgame207.com/game/version.txt?t=" + new Date().getTime();
+    const displayElement = document.getElementById('current-version-display');
+
+    fetch(versionUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.text();
+      })
+      .then(text => {
+        // Update the content (e.g., "14.01")
+        // .trim() removes any accidental whitespace or newlines from the txt file
+        displayElement.innerText = text.trim();
+      })
+      .catch(error => {
+        console.error('Error fetching game version:', error);
+        displayElement.innerText = 'Error'; 
+      });
+  })();
+</script>

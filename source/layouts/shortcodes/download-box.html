@@ -1,0 +1,66 @@
+<!-- Bắt đầu Shortcode Download Box -->
+<div class="game-download-container">
+    <div class="download-control">
+        <label for="client-select" style="display:block; margin-bottom: 8px; font-weight: bold;">Select Download Type:</label>
+        
+        <select id="client-select" class="download-select">
+            <option value="http://lc.ktgame207.com/game/tw.zip">Full Client</option>
+            <option value="http://lc.ktgame207.com/game/tw_update.zip">Small client, only contains executable files but no sound</option>
+            <option value="http://lc.ktgame207.com/game/sounds.zip">Download sound, no client</option>
+        </select>
+        
+        <button onclick="triggerDownload()" class="download-btn">Download</button>
+    </div>
+</div>
+
+<style>
+    /* CSS cơ bản để làm đẹp cho khung download */
+    .game-download-container {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        max-width: 500px;
+        margin: 20px 0;
+    }
+    
+    .download-select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .download-btn {
+        background-color: #007bff; /* Màu xanh nút bấm */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+        transition: background-color 0.3s;
+    }
+
+    .download-btn:hover {
+        background-color: #0056b3; /* Màu khi di chuột vào */
+    }
+</style>
+
+<script>
+    function triggerDownload() {
+        // Lấy thẻ select
+        var selectBox = document.getElementById("client-select");
+        // Lấy giá trị (link) của item đang chọn
+        var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+        
+        // Chuyển hướng trình duyệt đến link đó
+        if (selectedValue) {
+            window.location.href = selectedValue;
+        }
+    }
+</script>
+<!-- Kết thúc Shortcode -->
