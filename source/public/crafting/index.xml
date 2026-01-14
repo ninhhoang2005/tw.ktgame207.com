@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>home on world of the wild life, official website</title>
-    <link>https://localhost/</link>
-    <description>Recent content in home on world of the wild life, official website</description>
+    <title>crafting guide on world of the wild life, official website</title>
+    <link>https://localhost/crafting/</link>
+    <description>Recent content in crafting guide on world of the wild life, official website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://localhost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://localhost/crafting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cup</title>
       <link>https://localhost/crafting/cup/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://localhost/crafting/cup/</guid>
       <description>&lt;h2 id=&#34;item-description&#34;&gt;Item Description&lt;/h2&gt;&#xA;&lt;p&gt;A cup for &lt;strong&gt;drinking water, coffee, and more&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Take a piece of paper and your free hand, then &lt;strong&gt;press&lt;/strong&gt; it.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;This will produce a folded piece of paper; repeat to make &lt;strong&gt;2 folded pieces of paper&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Take the &lt;strong&gt;2 folded pieces of paper and put them together&lt;/strong&gt; to create an unfinished cup.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Take a &lt;strong&gt;paper cutter&lt;/strong&gt; and use it to make a &lt;strong&gt;circular&lt;/strong&gt; piece of paper.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>how to craft an item</title>
-      <link>https://localhost/general-guide/how-to-craft-an-item/</link>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://localhost/general-guide/how-to-craft-an-item/</guid>
-      <description>&lt;p&gt;how to craft an item?&lt;/p&gt;&#xA;&lt;p&gt;this is a question many people have when playing this game&lt;/p&gt;&#xA;&lt;p&gt;but, here I am, I&amp;rsquo;m going to guide everyone&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;press &amp;lsquo;i&amp;rsquo; to open your backpack, find an item and put it in your left hand&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;next, find another item and put it in your right hand&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;next, press escape to exit the backpack&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;simply press &amp;rsquo;t&amp;rsquo;, if the recipe is correct, it will combine them into something for you&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
