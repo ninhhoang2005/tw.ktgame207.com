@@ -6,12 +6,12 @@ menu:
     weight: 1
 ---
 
-This is an official page for World of the Wild Life
+This is an official page for Terra Wilds
 ## Information
 
 
 
-Name: World of the Wild Life
+Name: Terra Wilds
 
 
 
@@ -27,7 +27,7 @@ Developer: Technology Entertainment Team
 
 
 
-World of the Wild Life is a combination of everyday life, adventure, and tons of challenges.
+Terra Wilds is a combination of everyday life, adventure, and tons of challenges.
 
 
 
@@ -39,7 +39,7 @@ Everything depends on your decisions.
 
 
 
-World of the Wild Life has a diverse attribute system such as hunger, thirst, dirtiness, sickness, and many other factors.
+Terra Wilds has a diverse attribute system such as hunger, thirst, dirtiness, sickness, and many other factors.
 
 
 
