@@ -15,7 +15,12 @@ menu:
 
 All changes will be posted here.
 
-
+## update for version 14.02
+rename game: We have innovated this game by changing the name
+Developers can now access the new control panel.
+We also added keyboard shortcuts to access the control panel.
+Some systems have been changed.
+There are many other changes.
 ### Added on Wednesday, January 7, 2026
 Several commands have been added to delete backups, and full-fledged help management has been added for administrators. Now it's much easier to add and edit help files.
 ### Added on Tuesday, January 6, 2026
