@@ -15,6 +15,12 @@ menu:
 
 All changes will be posted here.
 
+## Added on Tuesday, February 17, 2026
+fixed under the delchar team, protection has been made for developers from deleting a developer by another developer
+added protection against account deletion by hackers now you can set protection against deleting your account in the following way enter the settelegram command and your telegram identifier can be obtained through various bots for this, or if you use unigram, you can enable one function in which you can easily get your identifier. Check this box if do you want to easily receive your account identifier Show chat IDs is marked it is located
+in the Advanced settings after that, if everything goes well, then if someone tries to delete your account, you will receive a code on your telegram that will be valid for only 10 minutes and if it is really you, then you can follow the instructions of the bot from which you will receive the code and instructions here is the link to the bot https://t.me/privattwbot
+## Added on Sunday, January 18, 2026
+I tried to redo the pots craft a bit so that the sound was not double when getting
 ## update for version 14.02
 rename game: We have innovated this game by changing the name
 Developers can now access the new control panel.
