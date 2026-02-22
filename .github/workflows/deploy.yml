@@ -30,6 +30,7 @@ jobs:
           extended: true
 
       - name: Build Hugo Site
+        working-directory: ./source
         run: hugo
 
       - name: Clean and Deploy via FTP
@@ -38,7 +39,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
+          local-dir: ./source/public/
           server-dir: ./
           dangerous-clean-slate: true
 
